@@ -6,6 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Home</title>
   <link rel="stylesheet" href="style.css">
+  <script>
+  if (window.location.pathname !== '/') {
+    const path = window.location.pathname;
+    history.replaceState(null, '', path);
+  }
+</script>
   <!-- React & ReactDOM -->
   <script src="https://unpkg.com/systemjs@0.19.47/dist/system.js"></script>
   <!-- Link to shared config file -->
