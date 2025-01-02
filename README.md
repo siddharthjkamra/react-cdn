@@ -33,9 +33,9 @@ These libraries are included in the `index.html` file inside the `<head>` tag. B
 
 ## Example Code
 
-Here is an example of a simple `About` component used in the app:
+Here is an example of a simple `About.js` component used in the app:
 
-```jsx
+```js
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
