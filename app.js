@@ -7,6 +7,7 @@ import Home from './home';
 import About from './about';
 import Contact from './contact';
 import Siddharth from './siddharth';
+import NotFound from './notfound';
 
 const App = () => (
   <Router>
@@ -17,6 +18,7 @@ const App = () => (
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
         <Route path="/siddharth" component={Siddharth} />
+        <Route component={NotFound} />
       </Switch>
     </main>
     <Footer />

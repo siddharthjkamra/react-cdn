@@ -12,6 +12,7 @@ const About = () => {
       <p>Learn more about us.</p>
       <nav>
         <Link to="/siddharth">Siddharth</Link>
+        <Link to="/going">Going</Link>
       </nav>
     </div>
   );
