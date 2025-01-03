@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
   useEffect(() => {
-    document.title = "Home";
+    document.title = "My React App";
   }, []);
 
   return (
