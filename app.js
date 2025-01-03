@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
-import Header from './header';
-import Footer from './footer';
-import Home from './home';
-import About from './about';
-import Contact from './contact';
-import Siddharth from './siddharth';
+import Header from './template/header';
+import Footer from './template/footer';
+import Home from './pages/home';
+import About from './pages/about';
+import Contact from './pages/contact';
+import Siddharth from './pages/siddharth';
 import NotFound from './notfound';
 
 const App = () => (
