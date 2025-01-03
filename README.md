@@ -64,4 +64,4 @@ export default About;
 1. Clone or download this repository to your local machine.
 
    ```bash
-   git clone https://github.com/siddharthjkamra/react-cdn.git
+   git clone https://github.com/siddharthvishwamitra/react-cdn.git
